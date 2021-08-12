@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #80cbc4;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-start;
+}
+
+.addTodoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.list {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.list li {
+    margin-top: 15px;
+    display: flex;
+}
